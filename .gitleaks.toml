@@ -1,0 +1,16 @@
+title = "CMS Gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Project-wide false positives"
+paths = [
+  '''(^|/)\.env\.example$''',
+  '''(^|/)composer\.lock$''',
+  '''(^|/)package-lock\.json$''',
+  '''(^|/)public/build/''',
+  '''(^|/)storage/''',
+  '''(^|/)vendor/''',
+  '''(^|/)node_modules/''',
+]
