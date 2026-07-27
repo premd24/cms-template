@@ -30,7 +30,7 @@
     },
     "dependencies": {
         "datatables.net": "^2.3.8",
-        "datatables.net-dt": "^2.3.8",
+        "datatables.net-dt": "^3.0.0",
         "jquery": "^4.0.0",
         "lottie-web": "^5.13.0",
         "quill": "2.0.3",
